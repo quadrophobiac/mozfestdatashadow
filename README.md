@@ -45,11 +45,11 @@ This is launched using "firefox -profile ABS/DIR/PATH" and uses a locally source
 
 Mozilla profile is a duplicate of the base profile generated via Mozilla Profile Manager with changes to the preferences as follows
 
-browser.tabs.loadDivertedInBackground = true # ensures that focus stays on the first tab loaded, in this case lightbeam plug in  
-browser.tabs.warnOnClose = false #  
-browser.tabs.warnOnCloseOtherTabs = false  
-browser.showQuitWarning = false  
-browser.warnOnQuit = false  
+    browser.tabs.loadDivertedInBackground = true # ensures that focus stays on the first tab loaded, in this case lightbeam plug in
+    browser.tabs.warnOnClose = false #
+    browser.tabs.warnOnCloseOtherTabs = false
+    browser.showQuitWarning = false
+    browser.warnOnQuit = false
 
 ## Custom Lightbeam Plug In
 
